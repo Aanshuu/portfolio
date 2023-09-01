@@ -1,0 +1,46 @@
+.header{
+    height: 50px;
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-style: Roboto,Arial;
+    color: black;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.right-section{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.discord-icon,
+.twitter-icon{
+    height: 35px;
+    width: 35px;
+}
+.profile-icon{
+    height: 32px;
+    border-radius: 16px;
+}
+.content {
+    position: relative;
+    z-index: 2; /* Content should be above the blurred overlay */
+}
